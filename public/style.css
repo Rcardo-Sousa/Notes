@@ -1,0 +1,81 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body {
+    background: #fff;
+    align-self: center;
+}
+
+.card {
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    background: #dddddd;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .8rem
+}
+
+.divaider {
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    background: gray;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .8rem
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: medium;
+    font: bolder;
+}
+
+.result {
+    color: #292d2f;
+}
+
+.title {
+    display: flex;
+    padding: 5rem 2rem 0;
+}
+
+.name {
+    display: flex;
+    padding: 2rem 2rem 0;
+}
+
+.text {
+    padding: 0 2rem 0 0;
+    border-radius: 10px;
+}
+
+.description {
+    display: flex;
+    padding: 2rem 2rem 0;
+}
+
+.buttonAdd {
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+.buttonDelet {
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+} */

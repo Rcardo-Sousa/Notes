@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NotesComponents />
+  <div class=""></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NotesComponents from './components/NotesComponents.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NotesComponents
+
   }
 }
+
 </script>
 
 <style>
-#app {
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.title {
+  text-transform: uppercase;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f2eee3;
   margin-top: 60px;
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    color: #f2eee3;
+  }
 }
 </style>
