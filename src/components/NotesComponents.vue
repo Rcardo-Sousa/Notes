@@ -257,13 +257,5 @@ button:hover {
 
   }
   
-  .elementsDescription,
-.text {
-  border-radius: 10px;
-  height: 35px;
-  width: 5rem;
-  align-self: center;
-}
-
 }
 </style>
