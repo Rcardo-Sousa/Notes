@@ -151,7 +151,6 @@ h3 {
 .text {
   border-radius: 10px;
   height: 35px;
-    width: 5rem;
   align-self: center;
 }
 
@@ -257,6 +256,14 @@ button:hover {
     width: 768px;
 
   }
+  
+  .elementsDescription,
+.text {
+  border-radius: 10px;
+  height: 35px;
+  width: 10rem;
+  align-self: center;
+}
 
 }
 </style>
