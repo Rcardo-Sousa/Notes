@@ -151,6 +151,7 @@ h3 {
 .text {
   border-radius: 10px;
   height: 35px;
+    width: 10rem;
   align-self: center;
 }
 
